@@ -36,7 +36,7 @@ public class Ex17{
 		System.out.print("Você só aceitaria trabalhar em escritórios da empresa dentro da grande BH? ");
 		boolean local = entrada.nextLine().charAt(0)=='V'?true:false;
 
-		if(criativa && !sozinho && autodidata&&(cursoTecnico&&!cursoSuperior&&!experiencia)&&(!lideranca || remuneracao)) {
+		if(criativa && !sozinho && autodidata&&(cursoTecnico&&!cursoSuperior&&!experiencia)&&!(lideranca && remuneracao)) {
 			System.out.println("Aprovado");
 		}else {
 			System.out.println("Reprovado");
