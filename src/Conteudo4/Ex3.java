@@ -11,39 +11,6 @@ import java.util.Scanner;
  * @author mello
  */
 public class Ex3 {
-
-    private static String linhaCompleta(int colunas, char caractere) {
-        String result = "";
-        for (int i = 0; i < colunas; i++) {
-            result = result + caractere;
-        }
-        return result;
-    }
-
-    private static String centralizar(int colunas, String texto) {
-        if (texto.length() > colunas) {
-            return texto;
-        } else {
-            //o número de colunas e texto devem ser ou os dois pares, ou os dois impares
-            if (texto.length() % 2 != colunas % 2) {
-                texto = " " + texto;
-            }
-            String espacamento = "";
-            //Dessa forma, (colunas-texto.length())/2 sempre será par, mas vou usar um Math.round para evitar erros (se o java bugar na hora de dividir)
-            for (int i = 0; i < Math.round((colunas - texto.length()) / 2); i++) {
-            	espacamento = espacamento + " ";
-            }
-            return espacamento + texto + espacamento;
-        }
-    }
-
-    private static String direita(int caracteres, String texto) {
-        for (int i = texto.length(); i < caracteres; i++) {
-            texto = texto + " ";
-        }
-        return texto;
-    }
-
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         final int colunas = 79;

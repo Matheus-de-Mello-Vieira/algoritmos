@@ -11,12 +11,7 @@ import java.util.Scanner;
  * @author mello
  */
 public class Ex2 {
-    private static String preencher(String texto, int caracteres){
-        for (int i = texto.length(); i < caracteres; i++) {
-            texto=texto+".";
-        }
-        return texto+" ";
-    }
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Insira o nome: ");
