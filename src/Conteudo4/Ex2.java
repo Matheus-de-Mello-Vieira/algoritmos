@@ -37,20 +37,21 @@ public class Ex2 {
         System.out.print("Insira o nome da empresa: ");
         String nomeEmpresa = entrada.nextLine();
         
-        System.out.print("Insira o sal√°rio: ");
+        System.out.print("Insira o sal·rio: ");
         int salario = entrada.nextInt();
         
         System.out.println();
         System.out.println("FICHA FUNCIONAL DE: "+nome);
         System.out.println();
         System.out.println("Documentos:");
-        System.out.println(preencher("CPF. ", 50)+CPF);
-        System.out.println(preencher("C.I. ", 50)+identidade);
-        System.out.println(preencher("T√≠tulo de eleitor. ", 50)+tituloEleitor);
-        System.out.println(preencher("Carteira de motorista. ", 50)+carteiraMotorista);
+        
+        System.out.println("CPF. ............................................."+CPF);
+        System.out.println("C.I. ............................................."+identidade);
+        System.out.println("TÌtulo de eleitor. ..............................."+tituloEleitor);
+        System.out.println("Carteira de motorista. ..........................."+carteiraMotorista);
         System.out.println();
         System.out.println("Empresa: "+nomeEmpresa);
-        System.out.println("Sal√°rio: R$ "+salario);
+        System.out.println("Sal·rio: R$ "+salario);
         entrada.close();
     }
 }
