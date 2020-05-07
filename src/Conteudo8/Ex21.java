@@ -9,10 +9,15 @@ public class Ex21 {
 		System.out.print("Insira o número: ");
 		int numero = entrada.nextInt();
 		
+		if(numero==1) {
+			System.out.println("O numero não é primo");
+			return;
+		}
+		
 		for(int i = 2;i<numero;i++) {
 			if(numero%i==0) {
 				System.out.println("O numero não é primo");
-				System.exit(0);
+				return;
 			}
 		}
 		System.out.println("O numero é primo");
