@@ -8,7 +8,7 @@ public class Ex26 {
 		// TODO Auto-generated method stub
 		for(int k = 0;k<20;k++) {
 			for(int i = 1;i<16;i++) {
-				for (int j = 0; j < 8 - Math.abs(i - 8); j++) {
+				for (int j = 0; j < Math.pow(2, 7 - Math.abs(i - 8)); j++) {
 					System.out.print('*');
 				}
 				System.out.println();

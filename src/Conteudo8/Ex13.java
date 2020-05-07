@@ -44,8 +44,9 @@ public class Ex13 {
 				menorPopulacao = populacao;
 			}
 		}
-		System.out.print("Cidades com a população de 1 milhão: "+cidadesAcima1milhao);
-		System.out.println("Cidade de menor população: "+menorPopulacao);		
+		System.out.println("Cidades com a população de 1 milhão: "+cidadesAcima1milhao);
+		System.out.println("Cidades com mais mulheres que homem: "+maismulheres);
+		System.out.println("Cidade de menor população: "+cidadeComMenorPopulacao);		
 		entrada.close();
 	}
 }
