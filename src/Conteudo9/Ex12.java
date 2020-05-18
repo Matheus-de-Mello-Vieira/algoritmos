@@ -8,6 +8,7 @@ public class Ex12 {
 			somatorio += sinal/(2*i + 1);
 			sinal*=-1;
 		}
-		System.out.println("Valor da série ="+4*somatorio);
+		somatorio*=4;
+		System.out.println("Valor da série ="+somatorio);
 	}
 }
