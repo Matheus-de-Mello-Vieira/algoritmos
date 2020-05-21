@@ -1,4 +1,5 @@
 package Conteudo6;
+
 import java.util.Scanner;
 
 public class Ex06 {
@@ -12,18 +13,18 @@ public class Ex06 {
 		int B = entrada.nextInt();
 		System.out.print("Insira o valor de C: ");
 		int C = entrada.nextInt();
-		
+
 		double delta = Math.pow(B, 2) - 4 * A * C;
-		
-		if(delta<0) {
+
+		if (delta < 0) {
 			System.out.println("Não há raízes reais");
-		}else if(delta==0) {
+		} else if (delta == 0) {
 			System.out.println("Há 1 raizes real");
-			System.out.println("X = " + (B*-1 + Math.sqrt(delta))/(2*A));
-		}else {
+			System.out.println("X = " + (B * -1 + Math.sqrt(delta)) / (2 * A));
+		} else {
 			System.out.println("Há 2 raizes reais");
-			System.out.println("X = " + (B*-1 + Math.sqrt(delta))/(2*A));
-			System.out.println("X = " + (B*-1 - Math.sqrt(delta))/(2*A));
+			System.out.println("X = " + (B * -1 + Math.sqrt(delta)) / (2 * A));
+			System.out.println("X = " + (B * -1 - Math.sqrt(delta)) / (2 * A));
 		}
 		entrada.close();
 	}

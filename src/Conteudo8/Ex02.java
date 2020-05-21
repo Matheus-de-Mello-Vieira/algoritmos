@@ -1,4 +1,5 @@
 package Conteudo8;
+
 import java.util.Scanner;
 
 public class Ex02 {
@@ -11,10 +12,10 @@ public class Ex02 {
 			double notaFinal = entrada.nextDouble();
 			System.out.print("Insira o total de faltas: ");
 			int totalFaltas = entrada.nextInt();
-			
-			if(notaFinal>=65&&totalFaltas<=16) {
+
+			if (notaFinal >= 65 && totalFaltas <= 16) {
 				System.out.println("Aluno aprovado");
-			}else {
+			} else {
 				System.err.println("Aluno reprovado");
 			}
 		}

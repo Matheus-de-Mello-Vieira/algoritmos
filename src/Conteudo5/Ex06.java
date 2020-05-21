@@ -1,4 +1,5 @@
 package Conteudo5;
+
 import java.util.Scanner;
 
 public class Ex06 {
@@ -12,15 +13,15 @@ public class Ex06 {
 		double b = entrada.nextDouble();
 		System.out.print("Informe o valor de C: ");
 		double c = entrada.nextDouble();
-		
+
 		System.out.print("Informe o valor de X: ");
 		double x = entrada.nextDouble();
 		System.out.print("Informe o valor de Y: ");
 		double y = entrada.nextDouble();
-		
+
 		System.out.print("Distância: ");
-		System.out.println((a*x+b*y+c)/Math.sqrt(Math.pow(a, 2)+Math.pow(b, 2)));
-		
+		System.out.println((a * x + b * y + c) / Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
+
 		entrada.close();
 	}
 

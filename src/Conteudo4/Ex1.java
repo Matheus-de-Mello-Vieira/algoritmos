@@ -1,4 +1,5 @@
 package Conteudo4;
+
 import java.util.Scanner;
 
 public class Ex1 {
@@ -8,7 +9,7 @@ public class Ex1 {
 		Scanner entrada = new Scanner(System.in);
 		String primeiroNome, nomeNoMeio, sobreNome;
 		int idade;
-		
+
 		System.out.println("");
 		System.out.print("Insira o primeiro nome: ");
 		primeiroNome = entrada.nextLine();
@@ -19,9 +20,9 @@ public class Ex1 {
 		System.out.print("Insira a idade:");
 		idade = entrada.nextInt();
 
-		System.out.println(sobreNome+", "+primeiroNome+" "+nomeNoMeio);
-		System.out.println("Idade: "+idade);
-		
+		System.out.println(sobreNome + ", " + primeiroNome + " " + nomeNoMeio);
+		System.out.println("Idade: " + idade);
+
 		entrada.close();
 	}
 

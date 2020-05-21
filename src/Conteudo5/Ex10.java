@@ -8,13 +8,13 @@ public class Ex10 {
 		System.out.print("Insira o número de 5 digitos: ");
 		int numero = entrada.nextInt();
 		entrada.close();
-		
+
 		System.out.println("Impressão: ");
-		
-		for(int i=4;i>=0;i--) {
-			int casas = Math.round((float)Math.pow(10, i));
-			System.out.println(numero/casas);
-			numero%=casas;
+
+		for (int i = 4; i >= 0; i--) {
+			int casas = Math.round((float) Math.pow(10, i));
+			System.out.println(numero / casas);
+			numero %= casas;
 		}
 	}
 }

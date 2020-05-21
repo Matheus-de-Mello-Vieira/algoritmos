@@ -13,18 +13,18 @@ public class Ex03 {
 			int notaFinal = entrada.nextInt();
 			System.out.print("Insira o número total de faltas: ");
 			int faltas = entrada.nextInt();
-			
-			if(notaFinal<65||faltas>16) {
+
+			if (notaFinal < 65 || faltas > 16) {
 				System.out.println("Aluno reprovado");
 				alunosReprovados++;
-			}else {
+			} else {
 				System.out.println("Aluno aprovado");
 				alunosAprovados++;
 			}
 		}
-		
-		System.out.println("Aprovados = "+alunosAprovados);
-		System.out.println("Reprovados = "+alunosReprovados);
+
+		System.out.println("Aprovados = " + alunosAprovados);
+		System.out.println("Reprovados = " + alunosReprovados);
 		entrada.close();
 	}
 }

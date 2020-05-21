@@ -1,4 +1,5 @@
 package Conteudo8;
+
 import java.util.Scanner;
 
 public class Ex21 {
@@ -8,14 +9,14 @@ public class Ex21 {
 		Scanner entrada = new Scanner(System.in);
 		System.out.print("Insira o número: ");
 		int numero = entrada.nextInt();
-		
-		if(numero==1) {
+
+		if (numero == 1) {
 			System.out.println("O numero não é primo");
 			return;
 		}
-		
-		for(int i = 2;i<numero;i++) {
-			if(numero%i==0) {
+
+		for (int i = 2; i < numero; i++) {
+			if (numero % i == 0) {
 				System.out.println("O numero não é primo");
 				return;
 			}

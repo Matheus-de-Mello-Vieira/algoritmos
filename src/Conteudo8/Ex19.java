@@ -1,5 +1,4 @@
 package Conteudo8;
-import java.util.Scanner;
 
 public class Ex19 {
 
@@ -8,7 +7,7 @@ public class Ex19 {
 		int anterior = 1;
 		for (int i = 1; i < 11; i++) {
 			System.out.println(anterior);
-			anterior*=2;
+			anterior *= 2;
 		}
 	}
 

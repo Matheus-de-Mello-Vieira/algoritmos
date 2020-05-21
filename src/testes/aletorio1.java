@@ -11,15 +11,15 @@ public class aletorio1 {
 
 		int fim = teclado.nextInt();
 
-		for (aux=1; aux<fim; aux+=4) {
+		for (aux = 1; aux < fim; aux += 4) {
 			System.out.println("FOR");
-		     if (aux == 1 || aux % 5 == 0)
+			if (aux == 1 || aux % 5 == 0)
 
-		           System.out.println("Valor impresso dentro do for = "+aux);
+				System.out.println("Valor impresso dentro do for = " + aux);
 
-		           soma += aux;
+			soma += aux;
 		}
-		System.out.println("Soma final = "+soma);
+		System.out.println("Soma final = " + soma);
 		teclado.close();
 	}
 }

@@ -1,5 +1,5 @@
 package Conteudo8;
-import java.util.Iterator;
+
 import java.util.Scanner;
 
 public class Ex07 {
@@ -7,8 +7,8 @@ public class Ex07 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner entrada = new Scanner(System.in);
-		
-		String nomeDoMaisVelho="";
+
+		String nomeDoMaisVelho = "";
 		int idadeMaior = 0;
 		int somatorioIdades = 0;
 		int alunosAcima30 = 0;
@@ -19,25 +19,25 @@ public class Ex07 {
 			System.out.print("Insira a idade: ");
 			int idade = entrada.nextInt();
 			entrada.nextLine();
-			
-			if(idade>idadeMaior) {
+
+			if (idade > idadeMaior) {
 				nomeDoMaisVelho = nome;
 				idadeMaior = idade;
 			}
-			
-			if(idade<=12) {
+
+			if (idade <= 12) {
 				alunosAte12++;
-			}else if(idade > 30) {
+			} else if (idade > 30) {
 				alunosAcima30++;
 			}
-			
-			somatorioIdades+=idade;
+
+			somatorioIdades += idade;
 		}
-		
-		System.out.println("Alunos até 12 anos = "+alunosAte12);
-		System.out.println("Alunos acima de 30 anos = "+alunosAcima30);
-		System.out.println("Média das idades = " + (somatorioIdades/50.0));
-		System.out.println("Aluno de maior idade = "+nomeDoMaisVelho);
+
+		System.out.println("Alunos até 12 anos = " + alunosAte12);
+		System.out.println("Alunos acima de 30 anos = " + alunosAcima30);
+		System.out.println("Média das idades = " + (somatorioIdades / 50.0));
+		System.out.println("Aluno de maior idade = " + nomeDoMaisVelho);
 		entrada.close();
 	}
 

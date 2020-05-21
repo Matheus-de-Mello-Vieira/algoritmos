@@ -1,4 +1,5 @@
 package Conteudo6;
+
 import java.util.Scanner;
 
 public class Ex13 {
@@ -14,10 +15,10 @@ public class Ex13 {
 		int horaFinal = entrada.nextInt();
 		System.out.print("Insira o minuto final: ");
 		int minutoFinal = entrada.nextInt();
-		
+
 		int minutoDuracao = (60 - minutoInicial) + minutoFinal;
-		int horaDuracao = horaFinal - horaInicial - 1 + (minutoDuracao/60);
-		System.out.println(horaDuracao+" : "+minutoDuracao%60);
+		int horaDuracao = horaFinal - horaInicial - 1 + (minutoDuracao / 60);
+		System.out.println(horaDuracao + " : " + minutoDuracao % 60);
 		entrada.close();
 	}
 

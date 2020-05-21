@@ -1,4 +1,5 @@
 package Conteudo5;
+
 import java.util.Scanner;
 
 public class Ex02 {
@@ -9,9 +10,9 @@ public class Ex02 {
 		System.out.print("Informe o raio: ");
 		double raio = entrada.nextDouble();
 		System.out.print("Área: ");
-		System.out.printf("%.2f\n",12.5664*Math.pow(raio, 2));
+		System.out.printf("%.2f\n", 12.5664 * Math.pow(raio, 2));
 		System.out.print("Volume: ");
-		System.out.printf("%.2f\n",4.1888*Math.pow(raio, 3));
+		System.out.printf("%.2f\n", 4.1888 * Math.pow(raio, 3));
 		entrada.close();
 	}
 

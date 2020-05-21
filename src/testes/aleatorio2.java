@@ -3,7 +3,7 @@ package testes;
 import java.util.Scanner;
 
 public class aleatorio2 {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		int aux, soma = 0;
 
@@ -11,14 +11,14 @@ public class aleatorio2 {
 
 		int fim = teclado.nextInt();
 
-		for (aux=1; aux<fim; aux+=4)
+		for (aux = 1; aux < fim; aux += 4)
 
-		     if (aux == 1 || aux % 5 == 0)
+			if (aux == 1 || aux % 5 == 0)
 
-		           System.out.println("Valor impresso dentro do for = "+aux);
+				System.out.println("Valor impresso dentro do for = " + aux);
 
-		           soma += aux;
+		soma += aux;
 
-		System.out.println("Soma = "+soma);
+		System.out.println("Soma = " + soma);
 	}
 }
