@@ -46,5 +46,6 @@ public class Ex04 {
 		System.out.println("Quantidade de mulheres que perderam 7 pontos na carteira: "+quantidadeDeMulheresQuePerderam7Pontos);
 		System.out.println("Nome da pessoa mais velha: "+pessoaMaisVelha);
 		System.out.println("Idade da pessoa mais velha: "+idadeMaior);
+		entrada.close();
 	}
 }

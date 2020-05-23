@@ -49,5 +49,6 @@ public class Ex03 {
 		System.out.println("Quantiade multas de pontuação 8 da primeira quinzena do mês: "+quantidadeDeMultas8NaPrimeiraQuizena);
 		
 		System.out.println("Valor total arrecadado: "+valorTotal);
+		entrada.close();
 	}
 }

@@ -43,5 +43,6 @@ public class Ex05 {
 		}while(!nome.equals("FIM"));
 		System.out.println("Quantidade de alunos matriculados nas turmas de inglês: "+ quantidadeIngles);
 		System.out.println("Mensalidade média da escola: "+(double)somatorio/quantidade);
+		entrada.close();
 	}
 }
