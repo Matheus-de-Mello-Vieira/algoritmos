@@ -11,7 +11,8 @@ public class Ex07 {
 
 		// usei o .floor com o + 1 pois quero arrendondar para cima e quando a casa
 		// decimal é muito pequena, o java acaba desprezando
-		int dias = (int) Math.floor(Math.log10(quantidadeDePessoas) / Math.log10(1.003)) + 1;
+		//Math.log10(1.003) = 0.001300933020418072
+		int dias = (int) Math.floor(Math.log10(quantidadeDePessoas) / 0.001300933020418072) + 1;
 		int anos = dias / 365;
 		dias %= 365;
 
